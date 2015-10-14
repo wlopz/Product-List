@@ -11,4 +11,10 @@
 	margin-top: 100px;
 	border: solid;
 	max-width: 25%;
+	background: #CACAD0;
+}
+
+.panel-default{
+	margin-top: 100px;
+	max-width: 75%
 }
