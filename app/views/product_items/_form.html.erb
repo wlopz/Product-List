@@ -12,8 +12,20 @@
   <% end %>
 
   <div class="field">
+    <%= f.label :product_name %><br>
+    <%= f.text_field :product_name %>
+  </div>
+  <div class="field">
     <%= f.label :description %><br>
     <%= f.text_field :description %>
+  </div>
+  <div class="field">
+    <%= f.label :qty %><br>
+    <%= f.text_field :qty %>
+  </div>
+  <div class="field">
+    <%= f.label :msrp %><br>
+    <%= f.text_field :msrp %>
   </div>
   <div class="actions">
     <%= f.submit %>
