@@ -1,32 +1,36 @@
 <p id="notice"><%= notice %></p>
+  
+  <body class="homepage">
 
-<div class="col-md-12 col-md-offset-4">
-  <div class="product-container">
-     
-   <p class="text-center">
-     <strong>Product Name:</strong>
-     <%= @product_item.product_name %>
-   </p>
-   
-   <p class="text-center">
-     <strong>Description:</strong>
-     <%= @product_item.description %>
-   </p>
+    <div class="col-md-12 col-md-offset-4">
+      <div class="product-container">
+         
+       <p class="text-center">
+         <strong>Product Name:</strong>
+         <%= @product_item.product_name %>
+       </p>
+       
+       <p class="text-center">
+         <strong>Description:</strong>
+         <%= @product_item.description %>
+       </p>
 
-   <p class="text-center">
-     <strong>Qty Arrived:</strong>
-     <%= @product_item.qty %>
-   </p>
+       <p class="text-center">
+         <strong>Qty Arrived:</strong>
+         <%= @product_item.qty %>
+       </p>
 
-   <p class="text-center">
-     <strong>MSRP:</strong>
-     <%= @product_item.msrp %>
-   </p>
+       <p class="text-center">
+         <strong>MSRP:</strong>
+         <%= @product_item.msrp %>
+       </p>
 
-  </div>
+      </div>
 
-  <div class="col-md-4">
-    <%= link_to 'Edit', edit_product_item_path(@product_item) %> |
-    <%= link_to 'Back', product_items_path %>
-  </div>
-</div>
+      <div class="col-md-4">
+        <%= link_to 'Edit', edit_product_item_path(@product_item) %> |
+        <%= link_to 'Back', product_items_path %>
+      </div>
+    </div>
+
+  </body>

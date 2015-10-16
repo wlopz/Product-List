@@ -3,6 +3,18 @@
   They will automatically be included in application.css.
 */
 
+body.homepage {
+ background-color: #63D0F8;
+}
+
+.wl {
+	/*margin-top: 80px;
+	margin-left: 50px;
+	margin-right: 100px;*/
+	max-width: 300px;
+  	max-height: 200px;
+}
+
 .table {
 	background: #CACAD0;
 }
@@ -15,6 +27,6 @@
 }
 
 .panel-default{
-	margin-top: 100px;
+	margin-top: 80px;
 	max-width: 75%
 }
